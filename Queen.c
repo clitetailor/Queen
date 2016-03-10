@@ -41,6 +41,14 @@ void Mark(int * board, int n)
 		}
 		printf("\n");
 	}
+	
+	printf("\n");
+	
+	for (i = 0; i < n; ++i)
+	{
+		printf("(%d, %d) ", board[i] + 1, i + 1)
+	}
+	
 	printf("\n+++++++++++++++++++++++++\n");
 }
 
